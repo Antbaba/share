@@ -52,3 +52,51 @@
 #### 把复制的内容粘贴到远程仓库添加设置ssh对应的位置
 
 
+#### git本地仓库生成
+
+比如说在demo文件夹下生成本地仓库 => 在demo目录下生成.git隐藏文件夹目录 
+
+```
+	cd demo
+	git init
+
+```
+
+#### 配置当前项目git用户名和邮箱
+
+```
+	git config user.name 'your name'
+	git config user.email 'your email'
+```
+
+#### 可通过命令查看当前项目git config配置项
+
+```
+	git config --list
+```
+
+### 本地仓库项目推送到远程仓库
+
+#### 添加远程仓库
+
+
+```
+	git remote add demo git@github.com:/**.git
+```
+
+#### 可通过命令查看添加的远程仓库
+
+```
+	git remote -v
+```
+
+#### 可通过命令推送到远程仓库
+
+```
+	git push demo master
+```
+
+
+```
+	未完待续...
+```
