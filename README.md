@@ -1,5 +1,5 @@
 ### share
 ```
-	fuction(){}();
+	function(){}();
 ```
 
